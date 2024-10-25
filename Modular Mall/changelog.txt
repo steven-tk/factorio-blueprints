@@ -1,0 +1,82 @@
+CHANGELOG:
+
+v3.0 - 25th Oct. 2024
+
+General Changes:
+- Numbering was changed in multiple ways:
+1) Connectors are now numbered as 0A to 0D, Modules are numbered 1 to X
+2) Modules have been added, removed and reordered.
+
+- Upgrade Planner was split:
+1) Belt Upgrade
+2) Assembler Upgrade
+3) Chest Upgrade (to support Logistic Network Embargo Achievement)
+
+- Chests changed (to support Logistic Network Embargo Achievement)
+1) Passive Provider Chests changed to Steel Chests
+2) Requester Chests changed to Wooden Chests
+
+- Power Pole Wires should be all neat now
+- Lamps should be placed more evenly whenever possible - enjoy shopping at night!
+- Added relative grids to easier place multiple modules in a row (e.g. bots, solar, ..)
+
+Module Changes:
+
+Inserters:
+- Removed filtered inserter variants
+- added Power Poles & Substations to make better use of space
+
+Core Items:
+- Increased Speed Module production by 50% (1 extra assembler)
+- Added 2x Iron Chest as buffer for Speed Module production which won’t be affect by the upgrade planner for logistics chests
+- Added Lamps (moved from Power Distribution)
+- Added parameter-based choice for Steel vs Electric Furnaces
+- Added Barrel OR Steel Chest Production (parameter-based choice)
+(Note: You will likely prefer Steel Chest production if you aim to gain the Logistic Network Embargo Achievement. If you play with Bot Logistics and place the Chest Module you likely want Barrels to move your fluids around via Bots as well.)
+(Note 2: The output chest for this is uniquely an iron chest to avoid flooding your logistic system with infinite empty Barrels if you later upgrade the mall to provider/requester chests)
+
+Power Distribution:
+- removed as of 3.0
+- relevant production moved to core and inserter modules
+
+Chests:
+- Module made optional for those hunting the Logistic Network Embargo Achievement by adding a Steel Chest vs Barrel choice to the Core module.
+- Also never felt right during playtesting to place a module in which 5 of 6 assemblers are not doing anything around the time you likely start building a mall. This makes this module optional early on and lets you switch things around once you unlocked relevant research.
+
+Trains:
+- Increased Engine production by 100% to combat bottleneck (1 additional assembler)
+- Added additional inserters for Landfill production to combat bottleneck
+- Added Rail Ramps 
+- Added Rail Supports
+
+Defense:
+- Changed Laser Turret assemblers (2x) to parameter-based choice for Gun vs Laser Turrets (individual choice)
+- Removed Artillery (requires ressources from beyond Nauvis)
+- Removed Gun Turret assembler (1x)
+- Increased Engine production by 100% to combat bottleneck (1 additional assembler)
+- Increased Wall production by 100% (1 additional assembler)
+
+
+Ammo:
+NOTE: in the past I have hinted at designing a separate combat mall. I’ve come to the conclusion that it’s not as vital to automate all the things as it is to automate some ammunition for all players. For that reason I added personal ammo variants to this mall. Explosive based ammo (rockets, tank shells, grenades, Comnbat & Support Capsules, …) you likely want to automate in larger quantities elsewhere due to long production times and/or using different ressources than this mall was designed around.
+- added as of 3.0
+- 1/2/4 Firearm/Piercing/Uranium Magazine assemblers with single outpout chest for Piercing/Uranium Magazines
+- 1/1 Shotgun/Piercing Shotgun Shell assemblers
+
+Ammo & Combat Capsules:
+NOTE: I am not sure yet if this is even worthwhile. Efficient production likely requires its own separate build. I’ve decided to include some simply because I never ever use these capsules at all - which is a shame :) That and I was curious if this could be enough in the early game. 
+Chances are this WILL BE REMOVED IN THE FUTURE again due to viability pending feedback from both you and my own upcoming playtest.
+- added as of 3.0
+- same as Ammo
+- 1/1/1 Defender/Distractor/Destroyer Capsule assemblers
+
+Circuits:
+- Removed Red & Green Wire assemblers (thank god - I mean thanks wube!)
+- Added Display Panel
+- Added Selector Combinator
+
+Bots:
+- removed different BP variants and replaced with parameter-based choice for Construction vs Logistic Bots
+
+Nuclear Power:
+- Changed layout so that Centrifuges take priority over Nuclear Reactors
