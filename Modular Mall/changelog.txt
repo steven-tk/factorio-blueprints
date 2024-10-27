@@ -1,8 +1,10 @@
 CHANGELOG:
 
+v3.0.2 - 27th Oct. 2024
+fixed double wide mainbus connector (wrong underground direction)
 
 v3.0.1 - 26th Oct. 2024
-fixed steam module (wrong underground)
+fixed steam module (wrong underground type)
 
 ----
 v3.0 - 25th Oct. 2024
