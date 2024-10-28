@@ -1,5 +1,8 @@
 CHANGELOG:
 
+v3.0.3 - 28th Oct. 2024
+removed useless inserter in train module (storage tank)
+
 v3.0.2 - 27th Oct. 2024
 fixed double wide mainbus connector (wrong underground direction)
 
