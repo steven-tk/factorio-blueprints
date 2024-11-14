@@ -1,5 +1,8 @@
 CHANGELOG:
 
+v3.0.5 - 14th Nov. 2024
+fixed inserter in gear section
+
 v3.0.4 - 2nd Nov. 2024
 fixed Oil Module by removing useless parts an shortening by 1 tile
 
