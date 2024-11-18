@@ -1,5 +1,13 @@
 CHANGELOG:
 
+v3.1.0
+- new space module! 
+- improved gear section of mainbus connectors incl. prioritised throughput for iron to account for 2:1 compression
+- added additonal underground pipe to Module 8b. ammo&bots to make u/Serious-Sock-4719 happy
+- removed snap to grid since it seemed bugged at times with blueprint books
+- adjusted default storage quantity for belts and improved gear inserter locations in belt module
+
+
 v3.0.5 - 14th Nov. 2024
 fixed inserter in gear section
 
