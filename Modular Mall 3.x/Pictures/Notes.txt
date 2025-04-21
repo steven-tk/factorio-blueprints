@@ -14,4 +14,4 @@ IV) #8 comes in two variants - pick one
 
 V) #10 Bots has one Parameter: Pick Logistic or Construction Bots. Likely you want to place this blueprint two times - one for each
 
-IV) I've added pictures of the upgrade planners for reference
+IV) I've added pictures of the upgrade planners for reference - IMPORTANT: Beltweaving will break if not using a properly configured upgrade planner!
