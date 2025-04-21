@@ -1,0 +1,17 @@
+
+Chests:
+- Wodden Chests are placeholder for Requester Chests (request the missing material e.g. concrete for nuclear module), Steel Chests are placeholder for Storage or Provider Chests, Iron chests are meant as permanent buffer chests for slowly producing intermediates and remain as is.
+- Chests are limited to 1 stack by default unless more makes sense (e.g. for belts, train tracks, ...) if in doubt just start with 1 stack as limit and increase it as you notice you need more of that item regularely.
+
+Other notes:
+I) Pick your Mainbus connector of choice - regular, double wide, without gears OR with gears in case you don't put gears on belts
+
+II) #3 Core items has two Paramenters: 0 = pick either Steel Furnaces or Electric Furnaces, 1= pick either barrels or steel chests (only makes sense if you don't use the chest module)
+
+III) #7 Defense has two Paramenters: 0 and 1 can both be set to Gun Turrets OR Laser Turrets OR one of each (recommended)
+
+IV) #8 comes in two variants - pick one
+
+V) #10 Bots has one Parameter: Pick Logistic or Construction Bots. Likely you want to place this blueprint two times - one for each
+
+IV) I've added pictures of the upgrade planners for reference
